@@ -2,13 +2,9 @@
 
 A full-stack team task management application with role-based access control, project management, task tracking, and overdue alerts.
 
-## Live URL
-
-> Add your deployed URL here after Railway deployment
-
 ## GitHub Repo
 
-> Add your GitHub repository URL here
+https://github.com/hemanthtavva/ethara
 
 ## Tech Stack
 
@@ -58,7 +54,7 @@ A full-stack team task management application with role-based access control, pr
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/hemanthtavva/ethara.git
 cd team-task-manager
 ```
 
@@ -72,9 +68,9 @@ npm install
 Create a `.env` file in `/backend`:
 
 ```env
-DATABASE_URL=postgresql://postgres:password@localhost:5432/team_task_manager
-JWT_SECRET=your_super_secret_jwt_key
-PORT=5000
+DATABASE_URL=postgresql://<your_user>@localhost:5432/team_task_manager
+JWT_SECRET=<your_secret_key>
+PORT=5001
 NODE_ENV=development
 ```
 
@@ -101,7 +97,7 @@ npm install
 Create a `.env` file in `/frontend`:
 
 ```env
-VITE_API_URL=http://localhost:5000
+VITE_API_URL=http://localhost:5001
 ```
 
 Start the frontend dev server:
@@ -110,7 +106,7 @@ Start the frontend dev server:
 npm run dev
 ```
 
-The frontend will run on `http://localhost:3000` and the backend on `http://localhost:5000`.
+The frontend will run on `http://localhost:3000` and the backend on `http://localhost:5001`.
 
 ## API Documentation
 
@@ -162,7 +158,7 @@ The frontend will run on `http://localhost:3000` and the backend on `http://loca
 - **Environment variables**:
   - `DATABASE_URL` — from Railway PostgreSQL plugin
   - `JWT_SECRET` — your secret key
-  - `PORT` — 5000
+  - `PORT` — 5001
   - `NODE_ENV` — production
   - `FRONTEND_URL` — your frontend Railway URL
 
@@ -177,10 +173,6 @@ The frontend will run on `http://localhost:3000` and the backend on `http://loca
 
 - Add Railway PostgreSQL plugin
 - Copy the `DATABASE_URL` to the backend environment variables
-
-## Screenshots
-
-> Add screenshots of your application here
 
 ---
 
