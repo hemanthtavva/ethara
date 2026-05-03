@@ -2,6 +2,10 @@
 
 A full-stack team task management application with role-based access control, project management, task tracking, and overdue alerts.
 
+## Live URL
+
+https://protective-illumination-production-619c.up.railway.app
+
 ## GitHub Repo
 
 https://github.com/hemanthtavva/ethara
